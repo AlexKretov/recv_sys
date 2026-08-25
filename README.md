@@ -51,11 +51,6 @@ recv_sys/
 ├── requirements.txt           # Зависимости (см. выше)
 ├── README.md                  # Этот файл
 ├── data/                      # ← скачайте сюда Patio_Lawn_and_Garden_5.json.gz
-├── images/                    # Графики (создайте папку и сохраните из ноутбука)
-├── src/                       # (рекомендуется) — модули моделей, utils, evaluation
-│   ├── models.py
-│   ├── evaluation.py
-│   └── data_utils.py
 └── .gitignore
 ```
 # 🚀 Установка и запуск
