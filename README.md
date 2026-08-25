@@ -96,7 +96,6 @@ jupyter notebook rec_sys.ipynb
 - ALS (implicit.als.AlternatingLeastSquares) — матричной факторизации с неявной обратной связью.
 - Item-Item CF — NearestNeighbors + cosine similarity на основе товаров.
 - SVD — scipy.sparse.linalg.svds для низкоранговой аппроксимации.
-- Content-based (в ноутбуке частично) — TF-IDF по тексту отзывов (reviewText, summary).
 - Hybrid — линейная комбинация рекомендаций с настраиваемыми весами.
 # 💡 Выводы и комментарии из ноутбука
 - Данные очень разреженные — классические матричные методы (ALS, SVD) дают скромный прирост над бейзлайном.
