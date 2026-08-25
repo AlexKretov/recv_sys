@@ -67,7 +67,7 @@ cd recv_sys
 pip install -r requirements.txt
 
 ## 3. Скачать датасет (5-core версия)
-## Скачайте https://jmcauley.ucsd.edu/data/amazon_v2/categoryFilesSmall/Patio_Lawn_and_Garden_5.json.gz
+Скачайте https://jmcauley.ucsd.edu/data/amazon_v2/categoryFilesSmall/Patio_Lawn_and_Garden_5.json.gz
 ## и разархивируйте в папку data/
 
 ## 4. Запустить
@@ -88,8 +88,9 @@ jupyter notebook rec_sys.ipynb
 Барчарт метрик (HR@10, MRR@10, NDCG@10, Coverage) — палитра viridis.
 ![alt text](image-3.png)
 Барчарт времени обучения — палитра magma.
-![alt text](image-4.png)
-Видно явное превосходство Item-Item CF по coverage и ранжирующим метрикам.
+![alt text](image-4.png)  
+
+**Видно явное превосходство Item-Item CF по coverage и ранжирующим метрикам.**
 
 # 🔬 Подробное описание моделей
 - Popularity — рекомендует самые популярные товары всем пользователям.
