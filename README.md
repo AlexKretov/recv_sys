@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ## 3. Скачать датасет (5-core версия)
 Скачайте https://jmcauley.ucsd.edu/data/amazon_v2/categoryFilesSmall/Patio_Lawn_and_Garden_5.json.gz
-## и разархивируйте в папку data/
+и разархивируйте в папку data/
 
 ## 4. Запустить
 jupyter notebook rec_sys.ipynb
@@ -80,9 +80,9 @@ jupyter notebook rec_sys.ipynb
 
 **Графики сравнения моделей** (создаются в последней части ноутбука):
 
-Барчарт метрик (HR@10, MRR@10, NDCG@10, Coverage) — палитра viridis.
+Барчарт метрик (HR@10, MRR@10, NDCG@10, Coverage).  
 ![alt text](image-3.png)
-Барчарт времени обучения — палитра magma.
+Барчарт времени обучения.  
 ![alt text](image-4.png)  
 
 **Видно явное превосходство Item-Item CF по coverage и ранжирующим метрикам.**
